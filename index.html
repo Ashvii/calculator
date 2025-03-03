@@ -8,7 +8,6 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
         body {
             display: flex;
@@ -21,47 +20,47 @@
             max-width: 90%;
             width: 350px;
             height: auto;
-            border: 2px solid black;
+            border: 2px solid rgb(241, 237, 237);
             border-radius: 15px;
             background-color: rgb(18, 17, 22);
             padding: 20px;
             text-align: center;
         }
         input {
-            width: 100%;
+            width: 90%;
             height: 50px;
             border: none;
             border-radius: 10px;
             padding: 10px;
             margin-bottom: 15px;
             text-align: right;
-            font-size: 1.5rem;
+            font-size: 20px;
             background-color: #fff;
         }
         .buttons {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(4,1fr);
             gap: 10px;
         }
         button {
             width: 100%;
             height: 60px;
-            border: none;
+            border: 1px solid white;
             border-radius: 10px;
-            font-size: 1.2rem;
+            font-size: 20px;
             color: white;
             background-color: rgb(38, 35, 50);
             cursor: pointer;
         }
         .gr { background-color: rgb(30, 67, 30); }
-        .caly { color: black; background-color: white; }
+        .caly { color: black; background-color: white; border: 1px solid black;}
         @media (max-width: 400px) {
             button {
                 height: 50px;
-                font-size: 1rem;
+                font-size: 16px;
             }
             input {
-                font-size: 1.2rem;
+                font-size: 20px;
             }
         }
     </style>
